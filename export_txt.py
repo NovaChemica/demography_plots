@@ -11,6 +11,6 @@ class Data:
         with open(self) as data_object:
             lines = data_object.readlines()
             enumerate(colonnes, 1) = lines.split(',')
-        
+            
 
     
