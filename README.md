@@ -38,10 +38,10 @@ A. Generic classes are grouped in the module: module_dem_plots.py
 
 B. Two functions linked to the project are grouped in the module: plot_pop_functions.py 
         - the first function is for collecting the data of interest from the TXT file into a dictionnary
-        - the second ato plot the "scatter-line" curves with the matplotlib library 
+        - the second to plot the "scatter-line" curves with the matplotlib library 
 
 
-The output in the terminal is captured in the picture: **program_execution_png**
+The output in the terminal is captured in the picture: **program_execution.png**
 
 The final graph is saved as: **PLOT_demographic_evolution_by_count.png**
 
