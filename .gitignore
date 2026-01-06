@@ -1,18 +1,40 @@
-# Fichiers temporaires Windows
-Thumbs.db
-Desktop.ini
+# -----------------------
+# Virtual environments
+# -----------------------
+venv/
 
-# Fichiers de log
+# -----------------------
+# Python cache & logs
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 *.log
 *.tmp
 
-# Dossiers systèmes ou documents personnels
-Documents/
-AppData/
+# -----------------------
+# Jupyter Notebook / Lab
+# -----------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Fichiers VS Code
+# -----------------------
+# VS Code
+# -----------------------
 .vscode/
 
-# Python
-__pycache__/
-*.pyc
+# -----------------------
+# Linux system files
+# -----------------------
+*~
+.DS_Store
+*.swp
+
+# -----------------------
+# Windows system files (au cas où)
+# -----------------------
+Thumbs.db
+Desktop.ini
+
+
